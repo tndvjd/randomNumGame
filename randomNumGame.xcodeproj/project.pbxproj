@@ -13,6 +13,7 @@
 		D7403B4A25D1244200C8E479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7403B4825D1244200C8E479 /* Main.storyboard */; };
 		D7403B4C25D1244400C8E479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7403B4B25D1244400C8E479 /* Assets.xcassets */; };
 		D7403B4F25D1244400C8E479 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7403B4D25D1244400C8E479 /* LaunchScreen.storyboard */; };
+		D773840425D1960900720F7E /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773840325D1960900720F7E /* CreditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D7403B4B25D1244400C8E479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7403B4E25D1244400C8E479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7403B5025D1244400C8E479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D773840325D1960900720F7E /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				D7403B4225D1244200C8E479 /* AppDelegate.swift */,
+				D773840325D1960900720F7E /* CreditViewController.swift */,
 				D7403B4425D1244200C8E479 /* SceneDelegate.swift */,
 				D7403B4625D1244200C8E479 /* ViewController.swift */,
 				D7403B4825D1244200C8E479 /* Main.storyboard */,
@@ -140,6 +143,7 @@
 				D7403B4725D1244200C8E479 /* ViewController.swift in Sources */,
 				D7403B4325D1244200C8E479 /* AppDelegate.swift in Sources */,
 				D7403B4525D1244200C8E479 /* SceneDelegate.swift in Sources */,
+				D773840425D1960900720F7E /* CreditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XPL46D5AFH;
 				INFOPLIST_FILE = randomNumGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XPL46D5AFH;
 				INFOPLIST_FILE = randomNumGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
